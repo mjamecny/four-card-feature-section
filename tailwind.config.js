@@ -3,7 +3,7 @@ module.exports = {
   content: ["*"],
   theme: {
     fontFamily: {
-      poppins: ["Poppins", "sans-serif"],
+      sans: ["Poppins", "sans-serif"],
     },
     spacing: {
       0.2: "2px",

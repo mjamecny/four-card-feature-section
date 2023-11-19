@@ -9,8 +9,101 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Four card feature section</title>
   </head>
-  <body></body>
+  <body class="bg-veryLightGray flex items-center justify-center">
+    <div
+      class="flex flex-col px-2.4 py-6.4 max-w-[1200px] md:h-screen items-center justify-center"
+    >
+      <div class="flex flex-col gap-0.4">
+        <h1
+          class="font-extralight text-2.4 lg:text-3.6 text-veryDarkBlue text-center"
+        >
+          Reliable, efficient delivery
+        </h1>
+        <h2
+          class="text-2.4 lg:text-3.6 text-veryDarkBlue font-semibold text-center"
+        >
+          Powered by Technology
+        </h2>
+      </div>
+      <p class="text-grayishBlue mt-3.2 lg:w-[60%] text-center">
+        Our Artificial Intelligence powered tools use millions of project data
+        points to ensure that your project is successful
+      </p>
+
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:grid-rows-2 gap-2.4 mt-6.4"
+      >
+        <div
+          class="flex flex-col gap-3.2 bg-[#fff] rounded-lg shadow-lg border-t-[5px] border-cyan p-2.4 lg:row-span-2 self-center"
+        >
+          <div class="flex flex-col gap-0.8">
+            <h3 class="text-2 text-veryDarkBlue font-semibold">Supervisor</h3>
+            <p class="text-[15px] text-grayishBlue">
+              Monitors activity to identify project roadblocks
+            </p>
+          </div>
+          <img
+            class="self-end"
+            src="./images/icon-supervisor.svg"
+            alt="supervisor icon"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-3.2 bg-[#fff] rounded-lg shadow-lg border-t-[5px] border-red p-2.4"
+        >
+          <div class="flex flex-col gap-0.8">
+            <h3 class="text-2 text-veryDarkBlue font-semibold">Team Builder</h3>
+            <p class="text-[15px] text-grayishBlue">
+              Scans our talent network to create the optimal team for your
+              project
+            </p>
+          </div>
+          <img
+            class="self-end"
+            src="./images/icon-team-builder.svg"
+            alt="team builder icon"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-3.2 bg-[#fff] rounded-lg shadow-lg border-t-[5px] border-orange p-2.4 lg:row-start-2 lg:row-span-1 lg:col-start-2"
+        >
+          <div class="flex flex-col gap-0.8">
+            <h3 class="text-2 text-veryDarkBlue font-semibold">Karma</h3>
+            <p class="text-[15px] text-grayishBlue">
+              Regularly evaluates our talent to ensure quality
+            </p>
+          </div>
+          <img
+            class="self-end"
+            src="./images/icon-karma.svg"
+            alt="karma icon"
+          />
+        </div>
+        <div
+          class="flex flex-col gap-3.2 bg-[#fff] rounded-lg shadow-lg border-t-[5px] border-blue p-2.4 lg:row-span-2 self-center"
+        >
+          <div class="flex flex-col gap-0.8">
+            <h3 class="text-2 text-veryDarkBlue font-semibold">Calculator</h3>
+            <p class="text-[15px] text-grayishBlue">
+              Uses data from past projects to provide better delivery estimates
+            </p>
+          </div>
+          <img
+            class="self-end"
+            src="./images/icon-calculator.svg"
+            alt="calculator icon"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
